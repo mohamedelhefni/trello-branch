@@ -1,0 +1,16 @@
+{
+  "name": "Trello Branch",
+  "description": "Trello Branch Selector",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "content_scripts": [ 
+    {
+     "matches": ["https://*.trello.com/*"],
+     "js": ["content.js"]
+    }
+  ],
+
+  "permissions": [ "activeTab", "scripting"]
+
+}
