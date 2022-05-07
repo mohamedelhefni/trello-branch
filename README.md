@@ -5,6 +5,6 @@ to install the extension go to `Settings > Extensions ` turn on `Developer mode`
 
 
 ## Todo 
-- [ ] add options page 
-- [ ] refactor the extension code to handle edge cases 
-- [ ] add more functionalites to extension like change the structure of the branch name
+- [x] add popup
+- [x] refactor the extension code to handle edge cases 
+- [x] add more functionalites to extension like change the structure of the branch name
