@@ -1,0 +1,42 @@
+.app {
+  min-width: 300px;
+  width: 400px;
+  padding: 1rem;
+  margin: auto;
+  font-family: sans-serif, serif;
+}
+h1 {
+  margin: 10px;
+  padding: 0px;
+}
+.branches-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.branches-container .branch {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
+  background: #2e6bd5;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 1px 0 #091e4240;
+}
+
+.save-btn {
+  margin: 5px;
+  padding: 5px 12px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.active {
+  background: #172b4d !important;
+}
