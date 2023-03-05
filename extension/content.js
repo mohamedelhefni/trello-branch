@@ -28,7 +28,7 @@ function updateBranches() {
   let branches = getBranchesList();
   chrome.storage.local.set(
     { branches: JSON.stringify([...branches]) },
-    function () {}
+    function() { }
   );
 }
 
@@ -48,12 +48,10 @@ function StartApp() {
 }
 updateBranches();
 
-if (document.readyState === "complete") {
-  StartApp();
-} else {
-  document.onreadystatechange = function () {
-    if (document.readyState === "complete") {
-      StartApp();
-    }
-  };
-}
+
+var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === "complete") {
+    clearInterval(readyStateCheckInterval);
+    StartApp();
+  }
+}, 10);
