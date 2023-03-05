@@ -6,6 +6,9 @@ the active branch will be used on the ticket
 to install the extension go to `Settings > Extensions ` turn on `Developer mode` then select `Load unpacked` and select extension directory  
 
 
+### Demo
+![Image](./img/trello-branch.gif)
+
 ### Todo 
 - [x] add popup
 - [x] refactor the extension code to handle edge cases 
